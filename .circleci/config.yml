@@ -7,7 +7,7 @@ orbs:
 # Orchestrate or schedule a set of jobs
 workflows:
   # Name the workflow "welcome"
-  Code-of-conduct-and-Introduction:
+  welcome:
     # Run the welcome/run job in its own container
     jobs:
-      - Code-of-conduct-and-Introduction/run
+      - welcome/run
